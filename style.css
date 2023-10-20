@@ -5,10 +5,11 @@
 }
 
 body {
-  height: 100%;
   width: 100%;
-  background: linear-gradient(to top left, #9b59b6, #1abc9c) no-repeat fixed;
-  font-family: "Fredoka", sans-serif;
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  font-family: "inter", sans-serif;
 }
 
 h1 {
@@ -78,20 +79,23 @@ h1 {
   position: absolute;
   height: 100%;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 5px;
 }
 
 .back-face {
-  background-color: #456b91;
+  background-image: url("./assets/back.png");
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  background-color: #fffbe1;
 }
 
 .front-face {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 img {
@@ -120,35 +124,45 @@ img {
 }
 
 #congratsDiv {
-  width: 300px;
-  background: white;
-  color: #6186aa;
-  padding: 20px 0 40px;
+  width: 400px;
+  background: rgb(255, 249, 197);
+  color: rgb(0, 0, 0);
+  padding: 0px 0 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 5px;
+  border-radius: 16px;
+
+  
+}
+
+#congratsDiv img {
+  width: 400px;
+  border-radius: 16px 16px 0px 0px;
+  
 }
 
 .final {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 14px;
   letter-spacing: 2px;
   margin: auto;
   padding: 10px 20px;
+  text-align:justify;
 }
 
 .again {
   font-size: 20px;
   font-weight: bold;
-  color: #6186aa;
+ color: rgb(221 141 39);;
   text-decoration: none;
   margin: auto;
-  padding: 10px 20px;
+  padding: 20px 20px;
   width: 160px;
   border: solid 1px;
   border-radius: 5px;
+ 
 }
 
 .again:hover {

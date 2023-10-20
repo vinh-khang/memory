@@ -103,7 +103,7 @@ function gameWon() {
     congratsSection.classList.replace("hidden", "show");
     clearInterval(interval);
     finalTime = minute.innerHTML + ":" + second.innerHTML;
-    final.innerHTML = "You won in " + finalTime + " time!";
+    final.innerHTML = "Chúc em ngày Phụ nữ Việt Nam (20/10) vui vẻ, lúc nào cũng tươi như hoa như vầy nhá! (Nhân tiện có trồng hoa thì cho anh ké mấy cây :v)                                                         ";
     totalTime.innerHTML = finalTime;
   }
   click = 0;
