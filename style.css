@@ -167,7 +167,7 @@ img {
 
 .again:hover {
   background: rgb(221 141 39);
-  background-image: linear-gradient(to top left, #9b59b6, #1abc9c);
+  background-image: rgb(221 141 39);
   background-size: 250%;
   color: white;
   cursor: pointer;
