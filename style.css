@@ -155,7 +155,7 @@ img {
 .again {
   font-size: 20px;
   font-weight: bold;
- color: rgb(221 141 39);;
+ color: rgb(221 141 39);
   text-decoration: none;
   margin: auto;
   padding: 20px 20px;
@@ -166,7 +166,7 @@ img {
 }
 
 .again:hover {
-  background: #6186aa;
+  background: rgb(221 141 39);
   background-image: linear-gradient(to top left, #9b59b6, #1abc9c);
   background-size: 250%;
   color: white;
