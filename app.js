@@ -103,7 +103,7 @@ function gameWon() {
     congratsSection.classList.replace("hidden", "show");
     clearInterval(interval);
     finalTime = minute.innerHTML + ":" + second.innerHTML;
-    final.innerHTML = "Chúc cho Nữ nhân bất thường Hồng Anh tốt nghiệp dui dẻ nhá, nhân tiện thì cho xin chút nam tính đê :>>>";
+    final.innerHTML = "Tao sinh ngày 22 tháng 1 đấy !";
     totalTime.innerHTML = finalTime;
   }
   click = 0;

@@ -82,7 +82,7 @@ h1 {
   padding: 10px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border-radius: 5px;
+  border-radius: 16px;
 }
 
 .back-face {
@@ -161,7 +161,7 @@ img {
   padding: 20px 20px;
   width: 160px;
   border: solid 1px;
-  border-radius: 5px;
+  border-radius: 16px;
  
 }
 
@@ -176,7 +176,7 @@ img {
 /*responsive*/
 @media only screen and (max-width: 768px) {
   h1 {
-    margin-top: 100px;
+    margin-top: 80px;
     font-size: 22px;
   }
 
@@ -203,5 +203,6 @@ img {
     margin: 5px;
     width: calc(33.333% - 10px);
     height: calc(25% - 10px);
+    border-radius: 16px;
   }
 }
